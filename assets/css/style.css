@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    background-color: #e0ddfd;
+}
+
+/* headings and page logo */
+
+h1,
+h2 {
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+/* Nav links */
+
+#navigation-bar {
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#navigation-bar,
+#logo {
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+#navigation-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#navigation-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigation-bar a:hover {
+    border-bottom: 1px solid black;
+}
+
+.active {
+    background-color: #FDDDEA;
+}

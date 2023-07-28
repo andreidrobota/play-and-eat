@@ -19,12 +19,12 @@ h2 {
     font-family: Poppins, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: black
 }
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /* Nav links */
@@ -52,9 +52,29 @@ h2 {
 }
 
 #navigation-bar a:hover {
-    border-bottom: 1px solid black;
+    background-color: #AFA8FB;
+    border-radius: 33%;
+    padding: 5px;
 }
 
 .active {
     background-color: #FDDDEA;
+    border-radius: 33%;
+    padding: 5px;
+    font-size: 130%;
+}
+
+/* Main image and text */
+
+#image-wrapper {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/header-image.jpg) no-repeat center center;
 }

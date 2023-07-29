@@ -98,3 +98,36 @@ h2 {
 #btright-text h3 {
     text-align: center;
 }
+
+#first-msg {
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 2px;
+    font-size: 120%;
+}
+
+
+/* Footer and Scoail Media Comunities links */
+
+footer {
+    height: 100px;
+    background-color: #FDDDEA;
+}
+
+.social-com {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+}
+
+.media-icons>li {
+    display: inline;
+}
+
+.media-icons i {
+    font-size: 150%;
+    color: black;
+    padding: 5px;
+    margin-right: 2%;
+}

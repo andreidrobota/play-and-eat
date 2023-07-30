@@ -172,12 +172,31 @@ h2 {
     margin: 20px;
     text-align: center;
     border: 2px solid black;
+    border-radius: 50%;
     float: left;
 }
 
 #program li {
     list-style-type: none;
     padding: 2px;
+    font-weight: 500;
+}
+
+#phone-email {
+    width: 33%;
+    height: 100px;
+    background-color: #FDDDEA;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: right;
+}
+
+#phone-email li {
+    list-style-type: none;
+    padding: 2px;
+    font-weight: 500;
 }
 
 /* Footer and Scoail Media Comunities links */

@@ -101,7 +101,7 @@ h2 {
 
 /* About Section */
 
-#first-msg {
+.first-msg {
     text-align: center;
     padding: 20px;
     letter-spacing: 2px;
@@ -163,6 +163,21 @@ h2 {
 
 #contact {
     clear: both;
+}
+
+#program {
+    width: 33%;
+    height: 100px;
+    background-color: #FDDDEA;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    float: left;
+}
+
+#program li {
+    list-style-type: none;
+    padding: 2px;
 }
 
 /* Footer and Scoail Media Comunities links */

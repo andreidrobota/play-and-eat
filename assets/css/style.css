@@ -240,3 +240,44 @@ footer {
     padding: 5px;
     margin-right: 2%;
 }
+
+/* Championship Form */
+
+#form-section {
+    clear: left;
+    background: url(../images/championship-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+}
+
+.ch-form {
+    color: black;
+    background-color: rgba(253, 221, 234, .8);
+    margin: 200px 10% 0 50px;
+    max-width: 500px;
+    position: absolute;
+    padding: 30px;
+}
+
+.label-text {
+    display: block;
+    text-decoration: underline;
+    padding: 2px;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+#play-button {
+    display: block;
+    font-size: 150%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30%;
+    background-color: #e0ddfd;
+}
+
+#play-button:hover {
+    background-color: pink;
+}

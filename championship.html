@@ -40,12 +40,60 @@
       </nav>
     </header>
     <section id="form-section">
-        <form method="post" action="https://formdump.codeinstitute.net/">
-            <h3>Sign up for our Gaming Championship</h3>
-            <label for="fname">First name</label>
-            <input type="text" name="first-name" id="fname" required>
-            <label for=""></label>
-        </form>
+      <form
+        method="post"
+        action="https://formdump.codeinstitute.net/"
+        class="ch-form"
+      >
+        <h3>
+          Sign up for our Gaming Championship <i class="fa-solid fa-trophy"></i>
+        </h3>
+        <label for="fname" class="label-text">First name</label>
+        <input type="text" name="first-name" id="fname" required />
+        <label for="lname" class="label-text">Last Name</label>
+        <input type="text" name="last-name" id="lname" required />
+        <label for="email" class="label-text">Email Address</label>
+        <input type="email" name="e-mail" id="email" required />
+        <label for="team-name" class="label-text">Team Name</label>
+        <input type="text" name="team-name" id="team-name" required />
+        <label class="label-text">Team Size</label>
+        <label for="team-size2">2 Players</label>
+        <input
+          type="radio"
+          name="team_size"
+          id="team-size2"
+          value="2"
+          required
+        />
+        <label for="team-size3">3 Players</label>
+        <input type="radio" name="team_size" id="team-size3" value="3" />
+        <label for="team-size4">4 Players</label>
+        <input type="radio" name="team_size" id="team-size4" value="4" />
+        <label class="label-text">Game Type</label>
+        <label for="counter">Counter Strike</label>
+        <input
+          type="checkbox"
+          name="game_type"
+          id="counter"
+          value="counter Strike"
+          required
+        />
+        <label for="league">League Of Legends</label>
+        <input
+          type="checkbox"
+          name="game_type"
+          id="league"
+          value="league of legends"
+        />
+        <label for="wot">World of Tanks</label>
+        <input
+          type="checkbox"
+          name="game_type"
+          id="wot"
+          value="world of tanks"
+        />
+        <input type="submit" value="Let`s Play!" id="play-button" />
+      </form>
     </section>
     <footer>
       <div class="social-com">

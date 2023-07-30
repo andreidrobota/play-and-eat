@@ -241,6 +241,16 @@ footer {
     margin-right: 2%;
 }
 
+/* Media icons animation */
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
 /* Championship Form */
 
 #form-section {

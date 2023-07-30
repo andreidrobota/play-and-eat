@@ -199,6 +199,21 @@ h2 {
     font-weight: 500;
 }
 
+#map-wrapper {
+    height: 400px;
+    width: 100%;
+    clear: both;
+    margin: 20px;
+}
+
+#map {
+    height: 100%;
+    width: 98%;
+    border: none;
+}
+
+
+
 /* Footer and Scoail Media Comunities links */
 
 footer {

@@ -291,3 +291,16 @@ a:hover i {
 #play-button:hover {
     background-color: pink;
 }
+
+/* Photos */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#gallery>img {
+    width: 100%;
+}

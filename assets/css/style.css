@@ -202,8 +202,7 @@ h2 {
 #map-wrapper {
     clear: both;
     height: 400px;
-    width: 98%;
-    margin: 20px;
+    width: 100%;
 }
 
 #map {
@@ -220,7 +219,7 @@ footer {
     height: 100px;
     background-color: #FDDDEA;
     clear: both;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .social-com {
@@ -317,4 +316,71 @@ a:hover i {
     }
 }
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+
+    .left-side,
+    .right-side {
+        float: left;
+        margin: 10px;
+    }
+
+    #gallery {
+        column-count: 2;
+    }
+
+    #center-side {
+        clear: both;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #navigation-bar {
+        float: left;
+    }
+
+    #btright-text {
+        left: 0;
+    }
+
+    #program,
+    #phone-email {
+        width: 200px;
+        height: 150px;
+        border: 2px solid black;
+        border-radius: 0%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    #navigation-bar {
+        left: 0;
+        font-size: 90%;
+    }
+
+    #first-msg {
+        position: absolute;
+    }
+
+    #center-side {
+        width: 50%;
+        position: absolute;
+        margin-left: 25%;
+    }
+
+    .left-side,
+    .right-side {
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    #mobile-size {
+        margin-top: 140px;
+    }
+
+    #gallery {
+        column-count: 1;
+    }
+}

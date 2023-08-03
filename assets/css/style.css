@@ -383,4 +383,8 @@ a:hover i {
     #gallery {
         column-count: 1;
     }
+
+    #btright-text {
+        font-size: 90%;
+    }
 }
